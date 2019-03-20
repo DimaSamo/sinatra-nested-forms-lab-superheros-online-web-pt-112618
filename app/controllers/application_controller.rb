@@ -12,7 +12,6 @@ class App < Sinatra::Base
       params[:team][:heroes].each do |hero|
         binding.pry
       end
-      binding.pry
       erb :team
     end
 
